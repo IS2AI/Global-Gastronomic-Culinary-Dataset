@@ -8,7 +8,7 @@ All dataset files and different models pre-trained on different datasets are ava
 
 ## Validation Set Results
 
-| Model Size   | CAFSD  | Nutrition5k | GFSD |
+| Model Size   | CAFSD (mAP50)  | Nutrition5k (mAP50)| GFSD (mAP50)|
 |--------------|--------|-------------|---------------------|
 | YOLOv8n      | 0.583  | 0.797       | 0.638               |
 | YOLOv8s      | 0.642  | 0.827       | 0.690               |
