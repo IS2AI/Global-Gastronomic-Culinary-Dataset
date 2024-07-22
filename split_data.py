@@ -31,6 +31,7 @@ def split_data(source_images_folder, source_labels_folder, destination_folder, t
             label_path = os.path.join(source_labels_folder, label_file)
             destination_label_path = destination_folder / split_folder / "labels" / label_file
             destination_label_path.parent.mkdir(parents=True, exist_ok=True)
+            # copying files to respective splits
             shutil.copy2(label_path, destination_label_path)
             shutil.copy2(image_path, destination_image_path)
             print("Image copied to ", destination_image_path)
