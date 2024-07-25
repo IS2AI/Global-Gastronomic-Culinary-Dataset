@@ -6,6 +6,8 @@ In this work, we propose the Global Food Scenes Dataset, a followup of our previ
 The statistics of classes grouped into 18 coarse classes are shown in Figure below.
 ![Alt text](figures/categories_subplots.png)
 
+In this Github repo, you can find everything used in this project including training scripts, data preparation scripts, datasets, pre-trained models, and so on.
+
 
 # Download Datasets and Pre-trained models
 All dataset files and different models pre-trained on different datasets are available for download.   
