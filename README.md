@@ -19,7 +19,7 @@ RT-DETR-x model trained on the Central Asian Food Scenes Dataset (CAFSD): https:
 
 ## Validation Set Results
 
-| Model Size   | CAFSD (mAP50)  | Nutrition5k (mAP50)| GFSD (mAP50)|
+| Model Size   | CAFSD (mAP50) | CAFSD (mAP50-95)  | Nutrition5k (mAP50)| Nutrition5k (mAP50-95)| GFSD (mAP50)| GFSD (mAP50-95)|
 |--------------|--------|-------------|---------------------|
 | YOLOv8n      | 0.583  | 0.797       | 0.638               |
 | YOLOv8s      | 0.642  | 0.827       | 0.690               |
