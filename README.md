@@ -1,19 +1,19 @@
 # Global Food Scenes Dataset
 
 In this work, we propose the Global Food Scenes Dataset, a followup of our previous work Central Asian Food Scenes Dataset (CAFSD) combined with Nutrition5k dataset[1] annotated with bounding boxes. We annotated the Nutrition5k dataset with bounding boxes resulting in 12,839 images across 113 classes. The final combined dataset which we call Global Food Scenes Dataset contains 34,145 images across 241 food classes. Some visual examples of a few classes are shown for the annotated Nutrition5k and CAFSD datasets in the figure below. 
-![Alt text](figures/)
+![Alt text](figures/class_samples.png)
 
 The statistics of classes grouped into 18 coarse classes are shown in Figure below.
 ![Alt text](figures/categories_subplots.png)
 
 
 # Download Datasets and Pre-trained models
-All dataset files and different models pre-trained on different datasets are available for download.
-To download the Global Food Scenes Dataset (GFSD): https://issai.nu.edu.kz/wp-content/themes/issai-new/data/models/GFSD/GFSD.zip
-To download the annotated Nutrition5k dataset: https://issai.nu.edu.kz/wp-content/themes/issai-new/data/models/Nutrition5k/Nutrition5k.zip
-YOLOv8n model trained on the annotated Nutrition5k dataset: https://issai.nu.edu.kz/wp-content/themes/issai-new/data/models/Nutrition5k/yolov8n.pt
-YOLOv8s model trained on the Global Food Scenes Dataset (GFSD): https://issai.nu.edu.kz/wp-content/themes/issai-new/data/models/GFSD/yolov8s.pt
-RT-DETR-x model trained on the Central Asian Food Scenes Dataset (CAFSD): https://issai.nu.edu.kz/wp-content/themes/issai-new/data/models/CAFSD/rtdetr-x.pt
+All dataset files and different models pre-trained on different datasets are available for download.   
+To download the Global Food Scenes Dataset (GFSD): https://issai.nu.edu.kz/wp-content/themes/issai-new/data/models/GFSD/GFSD.zip  
+To download the annotated Nutrition5k dataset: https://issai.nu.edu.kz/wp-content/themes/issai-new/data/models/Nutrition5k/Nutrition5k.zip  
+YOLOv8n model trained on the annotated Nutrition5k dataset: https://issai.nu.edu.kz/wp-content/themes/issai-new/data/models/Nutrition5k/yolov8n.pt  
+YOLOv8s model trained on the Global Food Scenes Dataset (GFSD): https://issai.nu.edu.kz/wp-content/themes/issai-new/data/models/GFSD/yolov8s.pt  
+RT-DETR-x model trained on the Central Asian Food Scenes Dataset (CAFSD): https://issai.nu.edu.kz/wp-content/themes/issai-new/data/models/CAFSD/rtdetr-x.pt  
 
 ## Validation Set Results
 
