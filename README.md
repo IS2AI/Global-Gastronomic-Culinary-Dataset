@@ -3,7 +3,7 @@
 In this work, we propose the Global Food Scenes Dataset, a followup of our previous work Central Asian Food Scenes Dataset (CAFSD) combined with Nutrition5k dataset[1] annotated with bounding boxes. We annotated the Nutrition5k dataset with bounding boxes resulting in 12,839 images across 113 classes. The final combined dataset which we call Global Food Scenes Dataset contains 34,145 images across 241 food classes. Some visual examples of a few classes are shown for the annotated Nutrition5k and CAFSD datasets in the figure below. 
 ![Alt text](figures/paper_front.png)
 
-The statistics of classes grouped into 18 coarse classes are shown in Figure below.
+The statistics of classes grouped into 18 coarse categories are shown in Figure below.
 ![Alt text](figures/categories_subplots.png)
 
 In this Github repo, you can find everything used in this project including training scripts, data preparation scripts, datasets, pre-trained models, and so on.
