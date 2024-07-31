@@ -6,16 +6,10 @@ We annotated the Nutrition5k dataset with bounding boxes resulting in 12,839 ima
 
 The final combined dataset which we call Global Food Scenes Dataset contains 34,145 images across 241 food classes. Some visual examples of a few classes are shown for the annotated Nutrition5k and CAFSD datasets in the figure below. 
 ![Alt text](figures/paper_front.png)
-_The images in the right-hand side are sampled from the annotated Nutrition5k dataset whereas left images are from the CAFSD.
-_
+*The images in the right-hand side are sampled from the annotated Nutrition5k dataset whereas left images are from the CAFSD.*
 
 The table below shows the number of images per split across different datasets.
-| Dataset | Train  | Valid | Test |
-|---------|--------|-------|------|
-| CAFSD   | 17,046 | 2,084 | 2,176|
-| Google  | 10,257 | 1,272 | 1,310|
-| GFSD    | 27,303 | 3,356 | 3,486|
-<table style="font-size:20px; width:100%;">
+<table style="font-size:40px; width:150%;">
   <tr>
     <th>Dataset</th>
     <th>Train</th>
