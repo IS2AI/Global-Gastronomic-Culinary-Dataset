@@ -15,21 +15,44 @@ The table below shows the number of images per split across different datasets.
 | CAFSD   | 17,046 | 2,084 | 2,176|
 | Google  | 10,257 | 1,272 | 1,310|
 | GFSD    | 27,303 | 3,356 | 3,486|
+<table style="font-size:20px; width:100%;">
+  <tr>
+    <th>Dataset</th>
+    <th>Train</th>
+    <th>Valid</th>
+    <th>Test</th>
+  </tr>
+  <tr>
+    <td>CAFSD</td>
+    <td>17,046</td>
+    <td>2,084</td>
+    <td>2,176</td>
+  </tr>
+  <tr>
+    <td>Google</td>
+    <td>10,257</td>
+    <td>1,272</td>
+    <td>1,310</td>
+  </tr>
+  <tr>
+    <td>GFSD</td>
+    <td>27,303</td>
+    <td>3,356</td>
+    <td>3,486</td>
+  </tr>
+</table>
 
 
 The statistics of classes grouped into 18 coarse categories are shown in Figure below.
 ![Alt text](figures/categories_subplots.png)
 
-In this Github repo, you can find everything used in this project including training scripts, data preparation scripts, datasets, pre-trained models, and so on.
 
 ## Project Files
 
 The project directory contains the following files and directories:
 
-- `figures/`: Directory containing figures and images used in the project.
-- `README.md`: This file. Contains information about the project.
 - `coco_to_yolo.py`: Script to convert annotations from COCO format to YOLO format.
-- `map_labels_yolo.py`: Script to map and update the labels for the YOLO dataset.
+- `map_labels_yolo.py`: Script to map and update the label files for the YOLO dataset, when merging multiple datasets in YOLO label format.
 - `split_data.py`: Script to split the dataset into training, validation, and test sets.
 - `train_rtdetr.py`: Script to train the RT-DETR (Real-Time Detection Transformer) model.
 - `train_yolo.py`: Script to train the YOLO (You Only Look Once) model.
