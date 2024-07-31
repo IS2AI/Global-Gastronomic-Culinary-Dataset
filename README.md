@@ -9,7 +9,7 @@ The final combined dataset which we call Global Food Scenes Dataset contains 34,
 *The images in the right-hand side are sampled from the annotated Nutrition5k dataset whereas left images are from the CAFSD.*
 
 The table below shows the number of images per split across different datasets.
-<table style="font-size:40px; width:150%;">
+<table style="font-size:50px; width:300%;">
   <tr>
     <th>Dataset</th>
     <th>Train</th>
