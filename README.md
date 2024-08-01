@@ -8,7 +8,7 @@ The original CAFSD dataset contains 21,306 images spanning 239 classes. The fina
 ![Alt text](figures/paper_front.png)
 *The images on the left illustrate the samples from the CAFSD dataset and on the right-hand side from the Nutrition5k dataset.*
 
-The table below shows the number of images per split across three datasets.
+The table below shows the number of images per split and instances across three datasets.
 <table style="font-size:50px; width:300%;">
   <tr>
     <th>Dataset</th>
