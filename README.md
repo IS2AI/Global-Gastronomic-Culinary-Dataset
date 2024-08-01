@@ -1,7 +1,7 @@
 # Global Food Scenes Dataset
 
 In this work, we propose the food object detection dataset named the Global Food Scenes Dataset (GFSD). This is a follow-up to our previous work Central Asian Food Scenes Dataset (CAFSD). The dataset is the extension of our CAFSD dataset with the Nutrition5k dataset[1]. 
-The original Nutrition5k contains 3.5k images taken from an overhead angle and ?? videos. Can you please describe how you came up with 12,830 images? 4 frames and upside down flipped images?
+The original Nutrition5k contains approximately 3,500 images taken from an overhead angle and videos for approximately 1,500 images. We extracted different frames and combined them with the overhead images.
 We annotated the Nutrition5k dataset with bounding boxes resulting in 12,839 images across 113 classes. 
 
 The original CAFSD dataset contains 21,306 images spanning 239 classes. The final combined GFSD dataset contains 34,145 images across 241 food classes. Some visual examples of a few classes are shown for the annotated Nutrition5k and CAFSD datasets in the figure below. 
