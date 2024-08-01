@@ -19,21 +19,21 @@ The table below shows the number of images per split across three datasets.
   </tr>
   <tr>
     <td>CAFSD</td>
-    <td>17,046</td>
+    <td>69,865</td>
     <td>17,046</td>
     <td>2,084</td>
     <td>2,176</td>
   </tr>
   <tr>
     <td>Google</td>
-    <td>17,046</td>
+    <td>23,445</td>
     <td>10,257</td>
     <td>1,272</td>
     <td>1,310</td>
   </tr>
   <tr>
     <td>GFSD</td>
-    <td>17,046</td>
+    <td>102,017</td>
     <td>27,303</td>
     <td>3,356</td>
     <td>3,486</td>
