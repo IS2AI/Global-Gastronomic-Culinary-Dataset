@@ -55,14 +55,6 @@ The project directory contains the following files and directories:
 - `train_rtdetr.py`: Script used to train the RT-DETR (Real-Time Detection Transformer) model.
 - `train_yolo.py`: Script used to train the YOLO (You Only Look Once) model.
 
-# Download Datasets and Pre-trained models
-All dataset files and different models pre-trained on different datasets are available for download.   
-To download the Global Food Scenes Dataset (GFSD): https://issai.nu.edu.kz/wp-content/themes/issai-new/data/models/GFSD/GFSD.zip  
-To download the annotated Nutrition5k dataset: https://issai.nu.edu.kz/wp-content/themes/issai-new/data/models/Nutrition5k/Nutrition5k.zip  
-YOLOv8n model trained on the annotated Nutrition5k dataset: https://issai.nu.edu.kz/wp-content/themes/issai-new/data/models/Nutrition5k/yolov8n.pt  
-YOLOv8s model trained on the Global Food Scenes Dataset (GFSD): https://issai.nu.edu.kz/wp-content/themes/issai-new/data/models/GFSD/yolov8s.pt  
-RT-DETR-x model trained on the Central Asian Food Scenes Dataset (CAFSD): https://issai.nu.edu.kz/wp-content/themes/issai-new/data/models/CAFSD/rtdetr-x.pt  
-
 
 # Download Datasets and Pre-trained Models
 
@@ -78,7 +70,7 @@ All dataset files and different models pre-trained on different datasets are ava
 - **RT-DETR-x model trained on CAFSD**: https://issai.nu.edu.kz/wp-content/themes/issai-new/data/models/CAFSD/rtdetr-x.pt
 
 ### Download Instructions
-You can download different versions of the YOLOv8 model (n, s, m, l, x) and RT-DETR-x model for each dataset by modifying the link accordingly: https://issai.nu.edu.kz/wp-content/themes/issai-new/data/models/<DATASET>/<MODEL>
+You can download different versions of the YOLOv8 model (n, s, m, l, x) and RT-DETR-x model for each dataset by modifying the link accordingly: https://issai.nu.edu.kz/wp-content/themes/issai-new/data/models/`<DATASET>`/`<MODEL>`
 
 Below are the placeholders for the model names and dataset names:
 - Replace `<MODEL>` with: `yolov8n.pt`, `yolov8s.pt`, `yolov8m.pt`, `yolov8l.pt`, `yolov8x.pt`, `rtdetr-x.pt`
