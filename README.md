@@ -70,7 +70,7 @@ All dataset files and different models pre-trained on different datasets are ava
 - **RT-DETR-x model trained on CAFSD**: https://issai.nu.edu.kz/wp-content/themes/issai-new/data/models/CAFSD/rtdetr-x.pt
 
 ### Download Instructions
-You can download different versions of the YOLOv8 model (n, s, m, l, x) and RT-DETR-x model for each dataset by modifying the link accordingly: https://issai.nu.edu.kz/wp-content/themes/issai-new/data/models/&lt;DATASET&gt;/&lt;MODEL&gt;
+You can download different versions of the YOLOv8 model (n, s, m, l, x) and RT-DETR-x model for each dataset by modifying this link accordingly: https://issai.nu.edu.kz/wp-content/themes/issai-new/data/models/`&lt;DATASET&gt;`/`&lt;MODEL&gt;`
 
 Below are the placeholders for the model names and dataset names:
 - Replace `<MODEL>` with: `yolov8n.pt`, `yolov8s.pt`, `yolov8m.pt`, `yolov8l.pt`, `yolov8x.pt`, `rtdetr-x.pt`
