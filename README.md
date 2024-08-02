@@ -25,7 +25,7 @@ The table below shows the number of images per split and instances across three 
     <td>2,176</td>
   </tr>
   <tr>
-    <td>Google</td>
+    <td>Nutrition5k</td>
     <td>23,445</td>
     <td>10,257</td>
     <td>1,272</td>
