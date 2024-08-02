@@ -50,10 +50,10 @@ The statistics of classes grouped into 18 coarse categories are shown in Figure 
 The project directory contains the following files and directories:
 
 - `coco_to_yolo.py`: Script to convert annotations from COCO format to YOLO format.
-- `map_labels_yolo.py`: Script to map and update the label files for the YOLO dataset, when merging multiple datasets in YOLO label format.
+- `map_labels_yolo.py`: Script to map and update the label files for the YOLO dataset, when merging multiple datasets with YOLO label format.
 - `split_data.py`: Script to split the dataset into training, validation, and test sets.
-- `train_rtdetr.py`: Script to train the RT-DETR (Real-Time Detection Transformer) model.
-- `train_yolo.py`: Script to train the YOLO (You Only Look Once) model.
+- `train_rtdetr.py`: Script used to train the RT-DETR (Real-Time Detection Transformer) model.
+- `train_yolo.py`: Script used to train the YOLO (You Only Look Once) model.
 
 # Download Datasets and Pre-trained models
 All dataset files and different models pre-trained on different datasets are available for download.   
