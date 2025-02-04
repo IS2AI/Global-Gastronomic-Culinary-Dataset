@@ -1,6 +1,6 @@
-# Global Food Scenes Dataset
+# Global Gastronomic Culinary Dataset
 
-In this work, we propose the food object detection dataset named the Global Food Scenes Dataset (GFSD). This is a follow-up to our previous work Central Asian Food Scenes Dataset (CAFSD). The dataset is the extension of our CAFSD dataset with the Nutrition5k dataset[1]. 
+In this work, we propose the food object detection dataset named the Global Gastronomic Culinary Dataset (GGCD). This is a follow-up to our previous work Central Asian Food Scenes Dataset (CAFSD). The dataset is the extension of our CAFSD dataset with the Nutrition5k dataset[1]. 
 The original Nutrition5k contains images taken from an overhead angle for approximately 3,500 dishes and four different side-angle videos for approximately 1,500 dishes. We extracted different frames from the side-angle videos and combined them with the overhead images.
 We annotated the Nutrition5k dataset with bounding boxes resulting in 12,839 images across 113 classes. 
 
@@ -32,7 +32,7 @@ The table below shows the number of images per split and instances across three 
     <td>1,310</td>
   </tr>
   <tr>
-    <td>GFSD</td>
+    <td>GGCD</td>
     <td>102,017</td>
     <td>27,303</td>
     <td>3,356</td>
@@ -61,7 +61,7 @@ The project directory contains the following files and directories:
 All dataset files and different models pre-trained on different datasets are available for download.
 
 ### Datasets
-- **Global Food Scenes Dataset (GFSD)**: [Download GFSD.zip](https://issai.nu.edu.kz/wp-content/themes/issai-new/data/models/GFSD/GFSD.zip)
+- **Global Gastronomic Culinary Dataset (GGCD)**: [Download GFSD.zip](https://issai.nu.edu.kz/wp-content/themes/issai-new/data/models/GFSD/GFSD.zip)
 - **Annotated Nutrition5k Dataset**: [Download Nutrition5k.zip](https://issai.nu.edu.kz/wp-content/themes/issai-new/data/models/Nutrition5k/Nutrition5k.zip)
 
 ### Pre-trained Models
